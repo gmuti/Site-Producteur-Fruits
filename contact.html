@@ -56,10 +56,10 @@
                         <!-- Brand and toggle get grouped for better mobile display -->
                           <ul class="nav navbar-nav" id="navbar">
                             <li class="level1 active dropdown"><a href="index.html" title="Home">Acceuil</a></li>
-                            <li class="level1"><a href="about.html" title="About us">A propos</a></li>
+                            <li class="level1"><a href="blog_details.html" title="collections">Les Dérivés</a></li>
                             <li class="level1"><a href="produit.html" title="About us">produits</a></li>
                             <li class="level1"><a href="engagement.html" title="About us">Engagements</a></li>
-                            <li class="level1"><a href="blog_details.html" title="collections">Blog</a></li>
+                            <li class="level1"><a href="about.html" title="About us">Professionnels</a></li>
                             <li class="level1"><a href="contact.html" title="Contact us">Contact</a></li>
                           </ul>
                         </nav>
@@ -223,101 +223,9 @@
     <script type="text/javascript" src="assets/js/map-icons.js"></script>
     <script type="text/javascript" src="assets/js/store.js"></script>
     <script type="text/javascript">
-        if ($("#googleMap").length) {
-            // Center
-            var center = new google.maps.LatLng(21.0311448, 105.7640188);
+/* ----- Google Map ----- */
 
-            // Map Options      
-            var mapOptions = {
-                zoom: 15,
-                center: center,
-                scrollwheel: false,
-                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                styles: [{
-                    "featureType": "landscape",
-                    "stylers": [{
-                        "saturation": -100
-                    }, {
-                        "lightness": 65
-                    }, {
-                        "visibility": "on"
-                    }]
-                }, {
-                    "featureType": "poi",
-                    "stylers": [{
-                        "saturation": -100
-                    }, {
-                        "lightness": 51
-                    }, {
-                        "visibility": "simplified"
-                    }]
-                }, {
-                    "featureType": "road.highway",
-                    "stylers": [{
-                        "saturation": -100
-                    }, {
-                        "visibility": "simplified"
-                    }]
-                }, {
-                    "featureType": "road.arterial",
-                    "stylers": [{
-                        "saturation": -100
-                    }, {
-                        "lightness": 30
-                    }, {
-                        "visibility": "on"
-                    }]
-                }, {
-                    "featureType": "road.local",
-                    "stylers": [{
-                        "saturation": -100
-                    }, {
-                        "lightness": 40
-                    }, {
-                        "visibility": "on"
-                    }]
-                }, {
-                    "featureType": "transit",
-                    "stylers": [{
-                        "saturation": -100
-                    }, {
-                        "visibility": "simplified"
-                    }]
-                }, {
-                    "featureType": "administrative.province",
-                    "stylers": [{
-                        "visibility": "off"
-                    }]
-                }, {
-                    "featureType": "water",
-                    "elementType": "labels",
-                    "stylers": [{
-                        "visibility": "on"
-                    }, {
-                        "lightness": -25
-                    }, {
-                        "saturation": -100
-                    }]
-                }, {
-                    "featureType": "water",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "hue": "#ffff00"
-                    }, {
-                        "lightness": -25
-                    }, {
-                        "saturation": -97
-                    }]
-                }],
-            };
-            var map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
-            var image = 'assets/images/google-map-icon.png';
-            var marker = new Marker({
-                map: map,
-                position: new google.maps.LatLng(21.0311448, 105.7640188),
-                icon: image
-            });
-        }
+
     </script>
     </body>
         

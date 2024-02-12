@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /*!important
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -6,7 +7,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: 'Dancing Script', sans-serif;
+  font-family: "Pacifico", cursive;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -126,7 +127,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: 'Dancing Script', monospace;
+  font-family: "Pacifico", cursive;
   font-size: 1em;
 }
 
@@ -313,7 +314,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Pacifico", cursive;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -324,7 +325,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  font-family: "Pacifico", cursive;
   font-size: inherit;
   line-height: inherit;
 }
@@ -354,7 +355,7 @@ img {
 }
 
 .img-responsive {
-  display: block;
+  /*display: block;*/
   max-width: 100%;
   height: auto;
 }
@@ -414,7 +415,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: "Pacifico", cursive;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -812,7 +813,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Pacifico", cursive;
 }
 
 code {
@@ -3535,6 +3536,7 @@ tbody.collapse.in {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+  font-family: "Pacifico", cursive;
 }
 
 .nav:before, .nav:after {
@@ -5845,7 +5847,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Pacifico", cursive;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -5979,7 +5981,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Pacifico", cursive;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6269,7 +6271,7 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: serif;
+  font-family: "Pacifico", cursive;
 }
 
 .carousel-control .icon-prev:before {
@@ -6657,4 +6659,13 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+*{
+  font-family: "Pacifico", cursive;
+}
+.tp-banner-container .tp-caption.size-60 {
+  font-size: 60px;
+  left: 380.133px;
+  top: 262.366px;
 }
