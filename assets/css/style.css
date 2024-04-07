@@ -21465,7 +21465,7 @@ dialog{
 .logo{
   width: 270px;
   height: 65px;
-  background-image: url("/assets/img2/logo-2.png");
+  background-image: url("../../assets/img2/logo-2.png");
   background-size: cover;
 }
 
