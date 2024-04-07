@@ -105,7 +105,7 @@
 
 .header-top::after{
   content: "";
-    background: url(/assets/img2/texture-menu-1.png) bottom center repeat-x !important;
+    background: url("../../assets/img2/texture-menu-1.png") bottom center repeat-x !important;
       background-size: auto;
     background-size: contain !important;
     visibility: visible !important;
@@ -6492,7 +6492,7 @@ ul.tabs.tabs-title li span.count {
 
 #googleMap {
   height: 100%;
-  background: url(../../assets/img2/mmap.png);
+  background: url("../../assets/img2/mmap.png");
   filter : brightness(65%);
 }
 
