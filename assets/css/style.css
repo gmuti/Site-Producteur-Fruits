@@ -2263,6 +2263,7 @@ ul.bastian li p span {
 
 .tp-banner-container {
   overflow: hidden;
+  height: 100vh;
 }
 
 .tp-banner-container.ver1 {
@@ -3436,8 +3437,7 @@ ul.tabs.tabs-title li span.count {
 .banner-header .text h3 {
   display: inline-block;
   width: 100%;
-  text-transform: uppercase;
-  font-size: 65px;
+  font-size: 45px;
  font-family: "Pacifico", cursive;
   line-height: 50px;
   letter-spacing: 15px;
@@ -3482,8 +3482,7 @@ ul.tabs.tabs-title li span.count {
 .banner-header.banner-lbook3 .text h3 {
   display: inline-block;
   width: 100%;
-  text-transform: capitalize;
-  font-size: 65px;
+  font-size: 45px;
    font-family: "Pacifico", cursive;
   line-height: 65px;
   letter-spacing: 5px;
@@ -4681,6 +4680,7 @@ ul.tabs.tabs-title li span.count {
 .bg-slider-one-item.bg-home2-slider {
   padding: 30px 0px;
   color: #e9589f;
+  margin-bottom: 10px;
 }
 
 .bg-slider-one-item.bg-home2-slider:after {
@@ -4703,12 +4703,12 @@ ul.tabs.tabs-title li span.count {
 
 .choose-us .title-choose {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .choose-us .title-choose h4 {
   font: 200 20px/25px "Pacifico";
-  color: green;
+  color: #e9589f;
+  margin-bottom: 25px;
 }
 
 .choose-us .title-choose h3 {
@@ -4731,11 +4731,6 @@ ul.tabs.tabs-title li span.count {
   color: #000;
   margin: 0 auto;
   font-family: "Pacifico", cursive;
-}
-
-.choose-us .title-choose.about h3 {
-  font-weight: 700;
-  margin-top: 20px;
 }
 
 .choose-us .title-choose.about .border-choose {
@@ -4879,6 +4874,7 @@ ul.tabs.tabs-title li span.count {
   color: #e9589f;
   text-transform: inherit;
 }
+
 
 .choose-us.choose-us-home2 .title-choose h3 span {
   font-weight: 300;
@@ -6157,6 +6153,11 @@ ul.tabs.tabs-title li span.count {
   display: inline-block;
   padding-bottom: 10px;
   margin-top: 60px;
+  height: 200px;
+}
+
+.bg-slider-one-item .owl-carousel .owl-item img{
+  height: 170px;
 }
 
 .brand-content .owl-item {
@@ -6642,6 +6643,11 @@ ul.tabs.tabs-title li span.count {
   z-index: 1;
 }
 
+.interactive-banner-body img{
+  width: 305px;
+  height: 305px;
+}
+
 .interactive-banner .banner-title h2, .interactive-banner .banner-title h3, .interactive-banner .banner-title h4, .interactive-banner .banner-title h5, .interactive-banner .banner-title h6 {
   color: #fff;
 }
@@ -6897,7 +6903,7 @@ ul.tabs.tabs-title li span.count {
 }
 
 .our-skills .progress-bar-success {
-  background: #e9589f;
+  background: #0365a6;
 }
 
 .our-skills .progress-bar {
@@ -6936,6 +6942,15 @@ ul.tabs.tabs-title li span.count {
 .head-about .col-md-6 img.img-responsive {
   position: relative;
   z-index: 3;
+}
+
+.texte-centre-rose{
+  height: 100%;
+  font: 400 16px/23px "Pacifico";
+  text-align: center;
+  color: #e9589f;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 .head-about .col-md-6.pd-left-10 {
@@ -13925,7 +13940,7 @@ nav.pagination a.next:hover i, nav.pagination a.prev:hover i {
 }
 
 .awe-loading-wrapper .progress .progress-bar {
-  background: #e9589f;
+  background: #0365a6;
   box-shadow: none;
   width: 100%;
   -webkit-animation-name: aweProgress;
@@ -14047,7 +14062,6 @@ nav.pagination a.next:hover i, nav.pagination a.prev:hover i {
 /** 6.2.1. General **/
 .container {
   width: 100%;
-  padding: 0px 30px;
 }
 
 #topbar {
@@ -15906,7 +15920,7 @@ button.button_search:hover {
 
 #footer.footer-v3 {
   background: #ffe5f2;
-  margin-top: 200px;
+  margin-top: 20px;
 }
 
 #footer.footer-v3 .footer-inner {
@@ -18771,7 +18785,6 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 /** 7. Templates Layout **/
 @media (min-width: 1500px) {
   .container {
-    padding: 0px 30px;
     width: 100%;
   }
   .container .col-md-5 {
@@ -21278,6 +21291,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     height: 250px;
     border-radius: 50%;
     overflow: hidden;
+    align-items: center;
   }
   
   .CContentBx .card .imgBx img{
@@ -21286,7 +21300,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
   
   .CContentBx .card .textBx{
@@ -21341,8 +21355,128 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     background: #2196f3;
   }
   
+  .imgBx2 img{
+    object-fit: cover;
+  }
 
-/********************************************************/
+/*****************************dialogue produits***************************/
 
+dialog{
+  width: 60%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 1000;
+  overflow: auto;
+  border: none;
+  border-radius: 10px;
+  max-height: 90%; /* Hauteur maximale de la boîte de dialogue à 90% de la fenêtre */
+}
+.slide .content{
+  margin: 0 30px;
+  width: 90%;
+}
+.slides {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 30px auto; /* Ajout de marges automatiques */
+}
 
+.slide {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.slide img {
+  width: 220px;
+  height: auto; /* Ajustement de la hauteur automatique en fonction de la largeur */
+  object-fit: cover;
+  float: left;
+  margin-right: 20px; /* Réduction de la marge à droite */
+}
+
+.content {
+  overflow: hidden;
+  width: 60%;
+}
+
+.prevBtn,
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #e9589f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.prevBtn {
+  left: 10px;
+}
+
+.nextBtn {
+  right: 10px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 25px;
+  background-color: #e9589f;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.banner-lbook3{
+  width: 100vw;
+  height: 200px;
+}
+
+.banner-lbook3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-lbook3 .text{
+  padding-top: 95px;
+}
+
+.banner-lbook3 .text h3{
+}
+
+.cont-plein{
+  padding: 0;
+}
+
+.logo{
+  width: 270px;
+  height: 65px;
+  background-image: url("../img2/logo-2.png");
+  background-size: cover;
+}
+
+.openbtn{
+  background-color: #e9589f;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
 
