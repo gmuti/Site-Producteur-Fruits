@@ -1,0 +1,126 @@
+.mon-produit-s{
+    width: 65%;
+    border: 2px solid #e9589f;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.mon-produit-s {
+    position: relative;
+}
+
+.mon-produit-s img {
+    width: 300px;
+    object-fit: cover;
+}
+
+#prevBtn,
+#nextBtn,
+#prevBtn2,
+#nextBtn2,
+#prevBtn3,
+#nextBtn3,
+#prevBtn4,
+#nextBtn4,
+#prevBtn5,
+#nextBtn5,
+#prevBtn6,
+#nextBtn6,
+#prevBtn7,
+#nextBtn7{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; /* ou la largeur souhaitée */
+    height: 30px; /* ou la hauteur souhaitée */
+    background-color: rgba(247, 162, 235, 0.233);
+    color: #e9589f;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#prevBtn, #prevBtn2, #prevBtn3, #prevBtn4, #prevBtn5, #prevBtn6, #prevBtn7{
+    left: 10px; /* ou la distance souhaitée depuis la gauche */
+}
+
+#nextBtn, #nextBtn2, #nextBtn3, #nextBtn4, #nextBtn5, #nextBtn6, #nextBtn7{
+    right: 10px; /* ou la distance souhaitée depuis la droite */
+}
+
+
+.mon-produit-s .oc .mon-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.mon-produit-s .oc .mon-cont .text {
+    margin-left: 40px;
+    width: 100%;
+}
+
+.section-produit {
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.haut {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 0 10px 80px;
+}
+
+.haut h2 {
+    font-size: 3.5em;
+    color: #e9589f;
+}
+
+.haut img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 40px;
+    box-shadow: #e9589f 0px 0px 20px;
+}
+
+.mon-cont .text h1{
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #e9589f;
+}
+
+.mon-cont .text p{
+    font-size: 1.1em;
+}
+
+.saison {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 0 10px 80px;
+}
+
+.saison h2 {
+    color: #000;
+}
+
+.saison img{
+    margin-left: 30px;
+    max-width: 1000px;
+    max-height: 150px;
+}
+
+.mon-cont img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+

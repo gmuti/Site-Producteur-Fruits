@@ -14,7 +14,7 @@ products.forEach((product, index) => {
 });
 
 productss.forEach((product, index) => {
-    const x = 190 + 210 * Math.cos(angle);
+    const x = 190 + 210 * Math.cos(angle);  
     const y = 190 + 210 * Math.sin(angle);
   
     product.style.transform = `translate(${x}px, ${y}px)`;

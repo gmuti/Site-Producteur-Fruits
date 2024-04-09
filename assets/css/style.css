@@ -173,65 +173,6 @@
 }
 
 
-.pp{
-  background-color: #ffe5f2;
-}
-
-
-#abricot{
-  background: rgb(21,102,3);
-  border-radius: 20px;
-  background: linear-gradient(313deg, rgba(21,102,3,1) 0%, rgba(254,167,43,0.16428578267244398) 43%, rgba(254,167,43,1) 100%); 
-}
-#fraiseP{
-  color: #fc2727;
-}
-#fraise{
-  background: rgb(21,102,3);
-  background: linear-gradient(313deg, rgba(21,102,3,1) 0%, rgba(228,38,38,0.16428578267244398) 43%, rgb(252, 39, 39) 100%); 
-}
-#framboise{
-  background: rgb(21,102,3);
-  background: linear-gradient(313deg, rgba(21,102,3,1) 0%, rgba(228,38,38,0.16428578267244398) 43%, rgba(252,39,39,1) 100%); 
-}
-#cerise{
-  background: rgb(21,102,3);
-  background: linear-gradient(313deg, rgba(21,102,3,1) 0%, rgba(228,38,38,0.16428578267244398) 43%, rgba(252,39,39,1) 100%); 
-}
-#courgette{
-  background: rgb(137,144,136);
-  background: linear-gradient(313deg, rgba(137,144,136,1) 0%, rgba(21,102,3,0.16428578267244398) 49%, rgba(43,77,36,1) 100%); 
-}
-#courge{
-  background: rgb(21,102,3);
-  background: linear-gradient(313deg, rgba(21,102,3,1) 0%, rgba(254,167,43,0.16428578267244398) 43%, rgba(254,167,43,1) 100%); 
-}
-#nectarine{
-  background: rgb(21,102,3);
-  background: linear-gradient(313deg, rgba(21,102,3,1) 0%, rgba(228,38,38,0.16428578267244398) 43%, rgba(252,39,39,1) 100%); 
-}
-#mirabelle{
-  background: rgb(21,102,3);
-  background: linear-gradient(313deg, rgba(21,102,3,1) 0%, rgba(254,167,43,0.16428578267244398) 43%, rgba(254,167,43,1) 100%); 
-}
-#peche{
-  background: rgb(21,102,3);
-  background: linear-gradient(313deg, rgba(21,102,3,1) 0%, rgba(228,38,38,0.16428578267244398) 43%, rgba(252,39,39,1) 100%); 
-}
-#pomme{
-  background: rgb(253,64,45);
-  background: linear-gradient(313deg, rgba(253,64,45,1) 0%, rgba(253,64,45,0.16428578267244398) 7%, rgba(34,195,97,1) 100%); 
-}
-#poire{
-  background: rgb(34,195,97);
-  background: linear-gradient(313deg, rgba(34,195,97,1) 0%, rgba(149,179,47,0.16428578267244398) 20%, rgba(255,165,0,1) 100%); 
-}
-#kiwi{
-  background: rgb(237,172,54);
-  background: linear-gradient(313deg, rgba(237,172,54,1) 0%, rgba(149,179,47,0.16428578267244398) 36%, rgba(34,195,97,1) 100%); 
-}
-
-
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -2081,13 +2022,13 @@ ul.bastian li p span {
   font-weight: 700;
   line-height: 20px;
   font-family: "Pacifico", cursive;
-  margin-top: 10px;
-  font-size: 20px;
+  margin: 10px 0;
+  font-size: 23px;
 }
 
 .shipping-v2 p {
    font-family: "Pacifico", cursive;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 400;
   color: #000;
   line-height: 15px;
@@ -21157,6 +21098,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     border: 2px solid #e9589f;
     border-radius: 50%;
     margin-left: 190px;
+    margin-bottom: 50px;
   }
   
   .animationContain2 .icon{
@@ -21479,3 +21421,24 @@ dialog{
   font-size: 15px;
 }
 
+.texte-bleu{
+  color: #0365a6;
+  margin-bottom: 10px;
+}
+
+.span-texte{
+  color: #000;
+  margin-bottom: 10px;
+}
+.produit-slides{
+  width: 800px;
+  height: 500px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.produit-slides .slider-about .items img{
+  width: 400px;
+  height: 100px;
+  object-fit: cover;
+}
