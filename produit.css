@@ -1,6 +1,6 @@
 .mon-produit-s{
     width: 65%;
-    border: 2px solid #e9589f;
+    border: 2px solid #0365a6;
     padding: 50px;
     margin: 0 auto;
 }
@@ -27,7 +27,9 @@
 #prevBtn6,
 #nextBtn6,
 #prevBtn7,
-#nextBtn7{
+#nextBtn7,
+#nextBtn8,
+#prevBtn8{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -42,11 +44,11 @@
     cursor: pointer;
 }
 
-#prevBtn, #prevBtn2, #prevBtn3, #prevBtn4, #prevBtn5, #prevBtn6, #prevBtn7{
+#prevBtn, #prevBtn2, #prevBtn3, #prevBtn4, #prevBtn5, #prevBtn6, #prevBtn7, #prevBtn8{
     left: 10px; /* ou la distance souhaitée depuis la gauche */
 }
 
-#nextBtn, #nextBtn2, #nextBtn3, #nextBtn4, #nextBtn5, #nextBtn6, #nextBtn7{
+#nextBtn, #nextBtn2, #nextBtn3, #nextBtn4, #nextBtn5, #nextBtn6, #nextBtn7, #nextBtn8{
     right: 10px; /* ou la distance souhaitée depuis la droite */
 }
 
@@ -74,7 +76,6 @@
     display: flex;
     align-items: center;
     margin: 10px;
-    padding: 10px 0 10px 80px;
 }
 
 .haut h2 {
@@ -88,7 +89,7 @@
     object-fit: cover;
     border-radius: 50%;
     margin-left: 40px;
-    box-shadow: #e9589f 0px 0px 20px;
+    box-shadow: #0365a6 0px 0px 20px;
 }
 
 .mon-cont .text h1{
@@ -108,10 +109,6 @@
     padding: 10px 0 10px 80px;
 }
 
-.saison h2 {
-    color: #000;
-}
-
 .saison img{
     margin-left: 30px;
     max-width: 1000px;
@@ -124,3 +121,73 @@
 }
 
 
+.embalage{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 80px;
+}
+
+.embalage img{
+    width: 290px;
+    height: 180px;
+    
+}
+.img-embalage{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.embalage h2{
+    margin: auto 0;
+}
+.objet-cover{
+    object-fit: cover;
+}
+
+  
+  .product-varieties h2 {
+    text-align: center;
+    color: #e9589f;
+  }
+  
+  .product-varieties {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(233, 88, 158, 0.282);
+  }
+  
+  .variety-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .variety {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .variety h3 {
+    color: #0365a6;
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #0365a618;
+    border-radius: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .variety h3:hover {
+    transform: scale(1.1);
+  }
+
+ .haut{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+ }

@@ -742,7 +742,7 @@ body {
   font-size: 14px;
   display: inline-block;
   width: 100%;
-  color: #000;
+  color: #0365a6;
   position: relative;
   font-weight: 400;
 }
@@ -1500,7 +1500,6 @@ ul.bastian li p span {
 
 .content-text p {
   font: 400 13px/20px "Pacifico";
-  color: #858585;
 }
 
 .content-text.center {
@@ -4648,8 +4647,7 @@ ul.tabs.tabs-title li span.count {
 
 .choose-us .title-choose h4 {
   font: 200 20px/25px "Pacifico";
-  color: #e9589f;
-  margin-bottom: 25px;
+  color: #0365a6;
 }
 
 .choose-us .title-choose h3 {
@@ -4669,7 +4667,6 @@ ul.tabs.tabs-title li span.count {
 .choose-us .title-choose p {
   max-width: 760px;
   font: 400 18px/25px "Pacifico";
-  color: #000;
   margin: 0 auto;
   font-family: "Pacifico", cursive;
 }
@@ -6098,7 +6095,7 @@ ul.tabs.tabs-title li span.count {
 }
 
 .bg-slider-one-item .owl-carousel .owl-item img{
-  height: 170px;
+  height: 140px;
 }
 
 .brand-content .owl-item {
@@ -6406,7 +6403,7 @@ ul.tabs.tabs-title li span.count {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 0;
-  color: #888888;
+  color: #0365A6;
   padding: 9px 20px;
   line-height: 1.625;
   height: 47px;
@@ -6870,13 +6867,11 @@ ul.tabs.tabs-title li span.count {
 
 .head-about h3 {
   font: 400 30px/35px "Pacifico";
-  color: #2b2b2b;
   margin-bottom: 25px;
 }
 
 .head-about p {
   font: 400 16px/23px "Pacifico";
-  color: #e9589f;
   margin-bottom: 20px;
 }
 
@@ -8018,7 +8013,7 @@ ul.tabs.tabs-title li span.count {
 
 .blog-classic .blog-post-container.single-post .blog-post-item .text p.normal {
   font-weight: 400;
-  color: #000;
+  color:  #0365a6;
 }
 
 .blog-classic .blog-post-container.single-post .blog-post-item .text p, .blog-classic .blog-post-container.single-post .blog-post-item .text li {
@@ -11218,7 +11213,7 @@ nav.pagination .next:hover i, nav.pagination .prev:hover i {
 
 /** 5.3. Shop Widget **/
 .widget ul.product-categories ul li a, .widget ul li a {
-  color: #000;
+  color: #0365a6;
   font: 400 18px "Pacifico";
   text-transform: capitalize;
 }
@@ -11715,7 +11710,7 @@ nav.pagination .next:hover i, nav.pagination .prev:hover i {
   content: '';
   height: 5px;
   width: 5px;
-  background: #000;
+  background:  #0365a6;
   margin-right: 15px;
   display: inline-block;
   margin-bottom: 5px;
@@ -15866,8 +15861,7 @@ button.button_search:hover {
 
 #footer.footer-v3 .footer-inner {
   position: relative;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding: 20px 0;
 }
 
 #footer.footer-v3 .footer-inner:after {
@@ -15889,7 +15883,6 @@ button.button_search:hover {
 }
 
 #footer.footer-v3 p {
-  color: #000;
   font: 400 14px/24px "Pacifico";
 }
 
@@ -15973,7 +15966,7 @@ button.button_search:hover {
 }
 
 #footer .list-footer li a {
-  color: #000;
+  color: #0365A6;
   font: 400 14px/20px "Pacifico";
 }
 
@@ -16028,7 +16021,7 @@ button.button_search:hover {
   text-transform: uppercase;
   letter-spacing: 0px;
   width: 140px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #footer .subscribe button i {
@@ -16080,7 +16073,7 @@ button.button_search:hover {
 
 #footer .social a i {
   font-size: 20px;
-  color: #000;
+  color: #0365A6;
 }
 
 #footer .social a:hover i {
@@ -16112,7 +16105,6 @@ button.button_search:hover {
 
 #footer .footer-bottom .language span, #footer .footer-bottom .language p, #footer .footer-bottom .language a {
   font: 400 12px/20px "Pacifico";
-  color: #000;
 }
 
 #footer .footer-bottom .language .hover-menu {
@@ -16149,7 +16141,7 @@ button.button_search:hover {
 }
 
 #footer .footer-bottom .menu-bottom-footer a {
-  color: #000;
+  color: #0365A6;
   font: 400 12px/20px "Pacifico";
 }
 
@@ -18364,12 +18356,11 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 
 .page-contact .content-text p {
   font: 400 24px/30px "Pacifico";
-  color: #333;
   margin-bottom: 50px;
 }
 
 .page-contact .content-text .form-control {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e9589f;
 }
 
 .page-contact .content-text textarea {
@@ -20909,7 +20900,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   border-radius: 50%;
   transition: 0.5s;
   border: 1px solid #e9589f;
-  box-shadow: 0 0 0 4px #222, 0 0 0 6px #fff;
+  box-shadow: 0 0 0 4px #0365a6, 0 0 0 6px #fff;
   transform: rotate(calc(360deg / 15 * var(--i)));
   transform-origin: 290px;
   z-index: 100;
@@ -20917,7 +20908,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 }
 
 .animationContain .icon .imgBx.active{
-  box-shadow: 0 0 0 4px #222, 0 0 0 12px #e9589f;
+  box-shadow: 0 0 0 4px #0365a6, 0 0 0 12px #e9589f;
 }
 
 
@@ -20953,7 +20944,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   position: absolute;
   inset: 20px;
   border: 4px solid transparent;
-  border-left: 3px solid #000;
+  border-left: 3px solid #0365a6;
   border-right: 3px solid #e9589f;
   border-radius: 50%;
   animation: animate_01 5s linear infinite;
@@ -20976,7 +20967,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   inset: 50px;
   border: 4px solid transparent;
   border-left: 3px solid #e9589f;
-  border-right: 3px solid #000;
+  border-right: 3px solid #0365a6;
   border-radius: 50%;
   animation: animate_02 2.5s linear infinite;
   z-index: 1;
@@ -21043,10 +21034,10 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 
 .contentBx .card .textBx h2{
   position: relative;
-  font-size: 1.25em;
+  font-size: 2rem;
   font-weight: 600;
   color: #e9589f;
-  text-transform: uppercase;
+  text-transform:lowercase;
   text-align: center;
 }
 
@@ -21119,7 +21110,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     border-radius: 50%;
     transition: 0.5s;
     border: 1px solid #e9589f;
-    box-shadow: 0 0 0 4px #222, 0 0 0 6px #fff;
+    box-shadow: 0 0 0 4px #0365a6, 0 0 0 6px #fff;
     transform: rotate(calc(360deg / 8 * var(--i)));
     transform-origin: 290px;
     z-index: 100;
@@ -21127,7 +21118,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   }
   
   .animationContain2 .icon .imgBx.active{
-    box-shadow: 0 0 0 4px #222, 0 0 0 12px #e9589f;
+    box-shadow: 0 0 0 4px #0365a6, 0 0 0 12px #e9589f;
   }
   
   
@@ -21163,7 +21154,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     position: absolute;
     inset: 20px;
     border: 4px solid transparent;
-    border-left: 3px solid #000;
+    border-left: 3px solid #0365a6;
     border-right: 3px solid #e9589f;
     border-radius: 50%;
     animation: animate_01 5s linear infinite;
@@ -21186,7 +21177,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     inset: 50px;
     border: 4px solid transparent;
     border-left: 3px solid #e9589f;
-    border-right: 3px solid #000;
+    border-right: 3px solid #0365a6;
     border-radius: 50%;
     animation: animate_02 2.5s linear infinite;
     z-index: 1;
@@ -21254,10 +21245,10 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   
   .CContentBx .card .textBx h2{
     position: relative;
-    font-size: 1.25em;
+    font-size: 1.9em;
     font-weight: 600;
     color: #e9589f;
-    text-transform: uppercase;
+    text-transform: lowercase;
     text-align: center;
   }
   
@@ -21427,7 +21418,7 @@ dialog{
 }
 
 .span-texte{
-  color: #000;
+  color: #e9589f;
   margin-bottom: 10px;
 }
 .produit-slides{
@@ -21441,4 +21432,161 @@ dialog{
   width: 400px;
   height: 100px;
   object-fit: cover;
+}
+
+.li-active {
+  color: #0365a6;
+}
+
+.mega-menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.mega-menu ul li a{
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.sous-menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 100;
+
+}
+
+.sous-menu ul li{
+    display: block;
+}
+
+.sous-menu li a{
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.sous-menu li:hover{
+  background-color: #ffe5f2;
+  color: #fff;
+}
+.sous-menu li:hover>a{
+  color: #fff;
+}
+
+.mega-menu ul li:hover .sous-menu{
+    display: flex;
+    flex-direction: column;
+    top: 45px;
+    width: 100%;
+    margin: 0;
+    left: 0;
+}
+
+.row .col-md-6 img{
+  width: 520px;
+  height: 330px;
+  margin-left: 40px;
+}
+
+.engagements {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 0 20px 20px 20px;
+}
+
+.engagements h2 {
+  text-align: center;
+  color: #333;
+}
+
+.engagements ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.engagements li {
+  font-size: 15px;
+}
+
+.surterre{
+  color: #e9589f;
+}
+
+.percentage {
+  font-weight: bold;
+  color: #e9589f;
+  font-size: 20px;
+}
+
+/*   ---------CERTIFICATION DANS PRODUIT--------    */
+
+
+.certification-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.certification-container h1 {
+  text-align: center;
+}
+
+.certification-container h2 {
+  color: #e9589f;
+  font-size: 37px;
+}
+
+.certification-container p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.certification-container ul {
+  margin-left: 20px;  
+}
+
+/* Style pour les logos */
+.certification-container div .log {
+  max-width: 200px; /* Ajustez selon vos besoins */
+  display: block;
+}
+.certification-container ul {
+  list-style-type: none; /* Réinitialise les puces */
+  margin-left: 20px;
+}
+
+.certification-container ul li::before {
+  content: "•"; /* Utilise un point comme symbole */
+  margin-right: 5px; /* Ajoute un espace entre le point et le texte */
+}
+.tete-col{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barre-milieu{
+  width: 40%;
+  height: 2px;
+  background-color: #e9589f;
+  margin: 50px auto ;
+}
+
+.bas-certif{
+  font-size: 16px;
+  margin: 0 30px;
+}
+
+.brand-content{
+  align-items: center;
+}
+
+#logo-marge{
+  padding-bottom: 0;
+  margin: 20px 50px 0 20px;
+}
+
+#logo-marge a img{
+  height: 100px;
 }

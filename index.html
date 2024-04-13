@@ -59,8 +59,20 @@
                         <nav class="mega-menu">
                         <!-- Brand and toggle get grouped for better mobile display -->
                           <ul class="nav navbar-nav" id="navbar">
-                            <li class="level1 active dropdown"><a href="index.html" title="Home">Acceuil</a></li>
-                            <li class="level1"><a href="produit.html" title="About us">Nos produits</a></li>
+                            <li class="level1 active dropdown "><a href="index.html" title="Home" class="li-active">Acceuil</a></li>
+                            <li class="level1">
+                                <a href="produit.html" title="About us">Nos produits</a>
+                                <ul class="sous-menu">
+                                    <li><a href="./produit.html">Abricot</a></li>
+                                    <li><a href="./produit.html#fraise">Fraise</a></li>
+                                    <li><a href="./produit.html#framboise">Framboise</a></li>
+                                    <li><a href="./produit.html#cerise">Cerise</a></li>
+                                    <li><a href="./produit.html#PECHE-Nectarine">Reche</a></li>
+                                    <li><a href="./produit.html#courgette">Courgette</a></li>
+                                    <li><a href="./produit.html#mirabelle">Mirabelle</a></li>
+                                    <li><a href="./produit.html#pomme">Pomme</a></li>
+                                </ul>
+                            </li>
                             <li class="level1"><a href="blog_details.html" title="collections">Les Dérivés</a></li>
                             <li class="level1"><a href="engagement.html" title="About us">Engagements</a></li>
                             <li class="level1"><a href="contact.html" title="Contact us">Contact</a></li>
@@ -87,8 +99,8 @@
 
                        <!-- LAYER NR. 9 -->
                         <div class="tp-caption color-white customin randomrotateout font-ros tp-resizeme size-60 text-shadow text-center"
-                            data-x="350"
-                            data-y="305"
+                            data-x="370"
+                            data-y="560"
                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                             data-speed="500"
                             data-start="2000"
@@ -97,13 +109,13 @@
                             data-splitout="none"
                             data-elementdelay="0.1"
                             data-endelementdelay="0.1"
-                            style="z-index: 3; left: 380.133px; top: 262.366px; font-size: 100px; color:#e9589f">Les Fruits du Val Qui Rit
+                            style="z-index: 3; left: 380.133px; top: 262.366px; font-size: 100px; color:#e9589f; text-shadow: #fff 0px 3px 5px;">Les Fruits du Val Qui Rit
                         </div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption color-white font-ros weight-300 skewfromleft customout size-20 letter-spacing-2 text-shadow text-center"
                             data-x="505"
-                            data-y="470"
+                            data-y="700"
                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-speed="800"
                             data-start="1600"
@@ -111,7 +123,7 @@
                             data-endspeed="300"
                             data-endeasing="Power1.easeIn"
                             data-captionhidden="on"
-                            style="z-index: 4; text-align: center; left: 380.133px; top: 262.366px;color:#e9589f"> Producteurs de fruits de saison, Jus de fruits, Cidre Brut, Confitures, Dessert, Miel, <br> Des produits régionaux de notre terroir depuis 4 générations.
+                            style="z-index: 4; text-align: center; left: 380.133px; top: 262.366px;color:#fff;text-shadow: #e9589f 0px 5px 10px;"> Producteurs de fruits de saison, Jus de fruits, Cidre Brut, Confitures, Dessert, Miel, <br> Des produits régionaux de notre terroir depuis 4 générations.
                         </div>
 
                         <!-- LAYER NR. 7 -->
@@ -125,7 +137,7 @@
                             data-endspeed="300"
                             data-endeasing="Power1.easeIn"
                             data-captionhidden="on"
-                            style="z-index: 5; text-align: center;left: 380.133px; top: 262.366px;color:#e9589f"><a href="#" title="View Shop" class="">Plus de Details</a>
+                            style="z-index: 5; text-align: center;left: 380.133px; top: 262.366px;color:#e9589f"><a href="#" title="View Shop" class=""></a>
                         </div>
 
                         <!-- LAYER NR. 8s -->
@@ -137,7 +149,7 @@
     `   <!-- End Slider Home2 -->
  
             <!--End Banner Home 2 -->
-            <div class="container container-ver2">
+            <div class="container container-ver2" id="aproposVal">
                 <div class="choose-us choose-us-home2">
                     <div class="col-md-4">
                         <img class="img-responsive hidden-table" src="assets/img2/22.png" alt="banner">
@@ -215,7 +227,7 @@
             </div>
             <!--End col-md-6-->
             <div class="col-md-6 pd-left-10">
-                <h3>Une histoire de famille</h3>
+                <h3 class="titre-souligne">Une histoire de famille</h3>
                 <p>L’équipe des Fruits du Val Qui Rit c’est comme un arbre… Nous sommes de multiples
                     branches coopérant sur un tronc commun, pour donner le meilleur de nos fruits.</p>
                 <p>Les Fruits du Val Qui Rit compte 20 salariés permanents, accompagnés d’une centaine de
@@ -255,7 +267,7 @@
                         <div class="items">
                             <a href="#" title="brand"><img class="img-responsive" src="assets/img2/fourni.png" alt="Brand"></a>
                         </div>
-                        <div class="items">
+                        <div class="items" id="logo-marge">
                             <a href="#" title="brand"><img class="img-responsive" src="assets/nouveau-photo-site/logo-ishere.png" alt="Brand"></a>
                         </div>
                         <div class="items">
@@ -280,7 +292,7 @@
                         <div class="col-md-3 col-sm-6">
                             <h3 class="title-footer">A propos</h3>
                             <p>Sur sa 4 ème génération, l’exploitation fruitière Les Fruits du Val Qui Rit producteurs de fruits de saison, Jus de fruits, Cidre Brut, Confitures, Dessert, Miel,...</p>
-                            <a class="link-footer" href="/about.html" title="footer">voir Plus <i class="fa fa-long-arrow-right"></i></a>
+                            <a class="link-footer" href="./index.html#aproposVal" title="footer">voir Plus <i class="fa fa-long-arrow-right"></i></a>
                         </div>
                         <div class="col-md-2 col-sm-6">
                             <h3 class="title-footer">Information</h3>
@@ -289,7 +301,6 @@
                                 <li><a href="#" title="title">Engagements</a></li>
                                 <li><a href="#" title="title">Conditions & termes</a></li>
                                 <li><a href="#" title="title">A propos</a></li>
-                                <li><a href="#" title="title">Nos produits</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -301,7 +312,7 @@
                                 <a href="#" title="g"><i class="fa fa-google"></i></a>
                             </div>
                             <h3 class="title-footer">Autres</h3>
-                            <a href="#" title="paypal"><img src="assets/images/paypal-footer.png" alt="images"></a>
+                            
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <h3 class="title-footer">Newsletter</h3>

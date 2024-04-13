@@ -53,4 +53,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Septième ensemble de diapositives
     const slides7 = document.querySelectorAll('.items7');
     initializeSlideFunctionality(slides7, 'nextBtn7', 'prevBtn7');
+
+    // Huitième ensemble de diapositives
+    const slides8 = document.querySelectorAll('.items8');
+    initializeSlideFunctionality(slides8, 'nextBtn8', 'prevBtn8');
 });

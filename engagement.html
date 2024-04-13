@@ -56,9 +56,21 @@
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <ul class="nav navbar-nav" id="navbar">
                             <li class="level1 active dropdown"><a href="index.html" title="Home">Acceuil</a></li>
-                            <li class="level1"><a href="produit.html" title="About us">Nos produits</a></li>
+                            <li class="level1">
+                                <a href="produit.html" title="About us">Nos produits</a>
+                                <ul class="sous-menu">
+                                    <li><a href="./produit.html">Abricot</a></li>
+                                    <li><a href="./produit.html#fraise">Fraise</a></li>
+                                    <li><a href="./produit.html#framboise">Framboise</a></li>
+                                    <li><a href="./produit.html#cerise">Cerise</a></li>
+                                    <li><a href="./produit.html#PECHE-Nectarine">Reche</a></li>
+                                    <li><a href="./produit.html#courgette">Courgette</a></li>
+                                    <li><a href="./produit.html#mirabelle">Mirabelle</a></li>
+                                    <li><a href="./produit.html#pomme">Pomme</a></li>
+                                </ul>
+                            </li>
                             <li class="level1"><a href="blog_details.html" title="collections">Les Dérivés</a></li>
-                            <li class="level1"><a href="engagement.html" title="About us">Engagements</a></li>
+                            <li class="level1"><a href="engagement.html" title="About us" class="li-active">Engagements</a></li>
                             <li class="level1"><a href="contact.html" title="Contact us">Contact</a></li>
                           </ul>
                         </nav>
@@ -82,14 +94,16 @@
                 <div class="choose-us">
                     <div class="title-choose align-center about">
                         <h4>Des engagements environnementaux et durables</h4>
-                        <h3>La certification se construit autour de 4 thématiques :</h3>
-                        <div class="align-center border-choose">
-                            <div class="images">
-                                <img src="assets/images/bg-border-center.png" alt="icon">
-                            </div>
-                            <!--End images-->
-                        </div>
-                        <!--End border-->
+                        <div class="engagements">
+                            <p class="surterre">Sur la terre...</p>
+                            <ul>
+                              <li><span class="percentage green">100%</span> des déchets alimentaires recyclés (poubelles de fruits données aux vaches à notre cousin éleveur)</li>
+                              <li><span class="percentage yellow">50%</span> d’autoconsommation électrique grâce aux 3 000 m2 de panneaux photovoltaïques</li>
+                              <li><span class="percentage blue">95%</span> de nos cartons et plastiques recyclés</li>
+                              <li><span class="percentage orange">20%</span> de nos colis en bois et carton réutilisés</li>
+                            </ul>
+                          </div>
+                        <h3>Haute Valeur Environnementale niveau 3</h3><br>
                     </div>
                 </div>
                 <!--End choose-us-->
@@ -113,27 +127,6 @@
                         <p>
                             Nichoirs à rapaces, un moyen simple de contrôler les rongeurs.
                         </p>
-                        <div class="slider-about owl-carousel">
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/bio1.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/bio2.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/bio3.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                        </div>
-                        <!--End slider-->
                     </div>
                     <!--End col-md-6-->
                 </div>
@@ -147,37 +140,11 @@
                     <div class="col-md-6 pd-left-10">
                         <h3>Une gestion de la fertilisation</h3>
                         <p>
-                            Dans notre approche de la gestion de la fertilisation, nous accordons une attention particulière 
-                            aux besoins spécifiques des cultures, favorisant ainsi une utilisation judicieuse des engrais.
+                            Différents moyens sont utilisés pour mieux gérer notre fertilisation :
+                            <p>- Fertilisation par l’eau : Optimiser et réduire la quantité par l’apport direct aux racines grâce à nos goutte à goutte.</p>
+                            <p>- Fertilisation par le sol : Utilisation de composte et de fumier pour enrichir le sol.</p>
+                           <p>- Réutilisation de composte apporté à la plantation.</p>
                         </p>
-                        <p>
-                            La stratégie adoptée repose sur une compréhension approfondie des exigences nutritives, permettant une gestion 
-                            efficiente des fertilisants pour optimiser la croissance des cultures de manière durable.
-                        </p>
-                        <p>
-                            Optimisation responsable des engrais pour une croissance durable des cultures.
-                        </p>
-                        <div class="slider-about owl-carousel">
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/ferti1.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/ferti2.png" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/ferti3.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                        </div>
-                        <!--End slider-->
                     </div>
                     <!--End col-md-6-->
                 </div>
@@ -191,39 +158,11 @@
                     <div class="col-md-6 pd-left-10">
                         <h3>Une gestion de la ressource en eau</h3>
                         <p>
-                            Une gestion efficace de l'eau implique une évolution des méthodes d'irrigation. 
-                            Les nouvelles approches privilégient le goutte-à-goutte enterré, les micro-jets 
-                            pendulaires et l'aspersion ciblée.
+                            Pour réduire notre consommation d’eau, nos méthodes d’irrigations ont évolué…
                         </p>
                         <p>
-                            Ces techniques garantissent un apport précis d'eau directement aux racines, 
-                            minimisant l'évaporation. L'irrigation s'adapte ainsi aux besoins spécifiques 
-                            de chaque culture, favorisant une consommation responsable.
+                            Goutte à goutte enterrés, micro-jets pendulaires sous le feuillage et aspersion sous frondaison, pour un apport en eau très précis, directement aux racines, en limitant l’évaporation, et en fonction du besoin de la culture.
                         </p>
-                        <p>
-                            Une gestion durable de la ressource, essentielle pour l'avenir agricole.
-                        </p>
-                        <div class="slider-about owl-carousel">
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/res1.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/res2.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/res3.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                        </div>
-                        <!--End slider-->
                     </div>
                     <!--End col-md-6-->
                 </div>
@@ -237,54 +176,60 @@
                     <div class="col-md-6 pd-left-10">
                         <h3>Une stratégie phytosanitaire raisonnée</h3>
                         <p>
-                            Pour préserver la santé de nos vergers, nous adoptons une approche phytosanitaire réfléchie, 
-                            en restant attentifs à nos cultures et en agissant uniquement lorsque nécessaire.
+                            Pour maintenir nos vergers sains, nous sommes particulièrement proches et observateurs de nos cultures. En effet, nous n’agissons uniquement si nécessaire. Dès lors, cela nous permet de réduire l’usage, aussi bien en quantité qu’en fréquence de traitement.
                         </p>
-                        <p>
-                            Notre stratégie se base sur une observation attentive, minimisant ainsi l'utilisation de traitements, 
-                            tant en quantité qu'en fréquence, pour maintenir la vitalité de nos vergers.
-                        </p>
-                        <p>
-                            Une approche raisonnée qui privilégie l'intervention minimale et la préservation durable.
-                        </p>
-                        <div class="slider-about owl-carousel">
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/san1.png" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/san2.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                            <div class="items">
-                                <a href="#" title="post-item">
-                                    <img src="assets/img2/san3.jpg" alt="images">
-                                </a>
-                            </div>
-                            <!--End items-->
-                        </div>
-                        <!--End slider-->
                     </div>
                     <!--End col-md-6-->
                 </div>
 
             </div>
             <!--End container-->
-
-            <br><br><br>
-
-            
-
         </div>
         <!-- End page-about -->
 
+        <div class="certification-container">
+            <div>
+                <div class="tete-col">
+                    <h2>Certifié Label Rouge</h2>
+                <img class="log" src="./assets/img2/fourni22.png" alt="Logo Label Rouge">
+                </div>
+                <div class="bas-certif">
+                    <p>Chaque année, nous proposons à nos consommateurs des Abricots Label Rouge.</p>
+                    <p>L’Abricot Label Rouge c’est :</p>
+                    <ul>
+                        <li>9 Variétés sélectionnées en France.</li>
+                        <li>7 Producteurs / Metteurs en marché sur la France, dont nous faisons partis.</li>
+                    </ul>
+                    <p>Après la récolte, chaque lot est analysé pour respecter :</p>
+                    <ul>
+                        <li>Un taux de sucre minimum</li>
+                        <li>Un calibre minimum</li>
+                        <li>Un taux de fermeté précis</li>
+                    </ul>
+                    <p>La fraicheur du fruit est importante, c’est pourquoi l’expédition des fruits ne doit excéder 10 jours après la récolte.</p>
+                </div>
+            </div>
+            <div class="barre-milieu"></div>
+            <div>
+                <div class="tete-col">
+                    <h2>Certifié Global GAP</h2>
+                    <img class="log" src="./assets/img2/fourni.png" alt="Logo Global GAP">
+                </div>
+                <div class="bas-certif">
+                    <p>Cette certification concerne différents points :</p>
+                <ul>
+                    <li>Santé et sécurité des ouvriers agricoles</li>
+                    <li>Lutte et gestion des cultures</li>
+                    <li>Pour l’hygiène et la sécurité alimentaire : Principes HACCP (Hazard Analysis Critical Control Point)</li>
+                    <li>Préservation de la faune et la flore</li>
+                    <li>Image de confiance</li>
+                </ul>
+                </div>
+            </div>
+        </div>
 
-            <!--End Shipping Version 2-->
-            <div class="bg-slider-one-item space-80 bg-home2-slider">
+             <!--End Shipping Version 2-->
+             <div class="bg-slider-one-item space-80 bg-home2-slider">
                 <div class="container container-ver2">
                     <!--End title-->
                     <div class="brand-content owl-carousel">
@@ -297,8 +242,8 @@
                         <div class="items">
                             <a href="#" title="brand"><img class="img-responsive" src="assets/img2/fourni.png" alt="Brand"></a>
                         </div>
-                        <div class="items">
-                            <a href="#" title="brand"><img class="img-responsive" src="assets/img2/fourniseur1(1).png" alt="Brand"></a>
+                        <div class="items" id="logo-marge">
+                            <a href="#" title="brand"><img class="img-responsive" src="assets/nouveau-photo-site/logo-ishere.png" alt="Brand"></a>
                         </div>
                         <div class="items">
                             <a href="#" title="brand"><img class="img-responsive" src="assets/img2/fournisseur2.png" alt="Brand"></a>
@@ -312,6 +257,7 @@
                 <!--End container-->
             </div>
             <!--End bg-slider-->
+
 
 
         <footer id="footer" class="footer-v3 align-left">
@@ -342,7 +288,6 @@
                               <a href="#" title="g"><i class="fa fa-google"></i></a>
                           </div>
                           <h3 class="title-footer">Autres</h3>
-                          <a href="#" title="paypal"><img src="assets/images/paypal-footer.png" alt="images"></a>
                       </div>
                       <div class="col-md-4 col-sm-6">
                           <h3 class="title-footer">Newsletter</h3>
