@@ -4646,7 +4646,7 @@ ul.tabs.tabs-title li span.count {
 }
 
 .choose-us .title-choose h4 {
-  font: 200 20px/25px "Pacifico";
+  font: 200 35px/25px "Pacifico";
   color: #0365a6;
 }
 
@@ -4666,7 +4666,7 @@ ul.tabs.tabs-title li span.count {
 
 .choose-us .title-choose p {
   max-width: 760px;
-  font: 400 18px/25px "Pacifico";
+  font: 400 20px/25px "Pacifico";
   margin: 0 auto;
   font-family: "Pacifico", cursive;
 }
@@ -6866,12 +6866,12 @@ ul.tabs.tabs-title li span.count {
 }
 
 .head-about h3 {
-  font: 400 30px/35px "Pacifico";
+  font: 400 38px/35px "Pacifico";
   margin-bottom: 25px;
 }
 
 .head-about p {
-  font: 400 16px/23px "Pacifico";
+  font: 100 20px/23px "Pacifico";
   margin-bottom: 20px;
 }
 
@@ -21034,10 +21034,9 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 
 .contentBx .card .textBx h2{
   position: relative;
-  font-size: 2rem;
   font-weight: 600;
   color: #e9589f;
-  text-transform:lowercase;
+  text-transform: capitalize;
   text-align: center;
 }
 
@@ -21248,7 +21247,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     font-size: 1.9em;
     font-weight: 600;
     color: #e9589f;
-    text-transform: lowercase;
+    text-transform: capitalize;
     text-align: center;
   }
   
@@ -21490,7 +21489,6 @@ dialog{
 }
 
 .engagements {
-  max-width: 800px;
   margin: 10px auto;
   padding: 0 20px 20px 20px;
 }
@@ -21506,7 +21504,7 @@ dialog{
 }
 
 .engagements li {
-  font-size: 15px;
+  font-size: 23px;
 }
 
 .surterre{
@@ -21516,7 +21514,7 @@ dialog{
 .percentage {
   font-weight: bold;
   color: #e9589f;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 /*   ---------CERTIFICATION DANS PRODUIT--------    */
@@ -21574,7 +21572,7 @@ dialog{
 }
 
 .bas-certif{
-  font-size: 16px;
+  font-size: 21px;
   margin: 0 30px;
 }
 
