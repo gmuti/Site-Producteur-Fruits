@@ -87,65 +87,94 @@
                 
         </header><!-- /header -->
 
-        <div class="tp-banner-container hidden-dot ver1">
-            <div class="tp-banner" >
-                <ul>    <!-- SLIDE  -->
+        <div class="">
+            <div class="tp-banner">
+                <ul>    
                     <!-- SLIDE  -->
-                    <li data-transition="random" data-slotamount="6" data-masterspeed="1000" >
+                    <li data-transition="random" data-slotamount="6" data-masterspeed="1000">
                         <!-- MAIN IMAGE -->
-                     
-                            <img src="assets/nouveau-photo-site/photo-acceuil.jpg" id="homePageBanner" alt="Futurelife-home2-slideshow"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="assets/nouveau-photo-site/photo-acceuil.jpg" id="homePageBanner" alt="Futurelife-home2-slideshow" class="main-image">
                         
-
-                       <!-- LAYER NR. 9 -->
-                        <div class="tp-caption color-white customin randomrotateout font-ros tp-resizeme size-60 text-shadow text-center"
-                            data-x="370"
-                            data-y="560"
-                            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                            data-speed="500"
-                            data-start="2000"
-                            data-easing="Power4.easeOut"
-                            data-splitin="chars"
-                            data-splitout="none"
-                            data-elementdelay="0.1"
-                            data-endelementdelay="0.1"
-                            style="z-index: 3; left: 380.133px; top: 262.366px; font-size: 100px; color:#e9589f; text-shadow: #fff 0px 3px 5px;">Les Fruits du Val Qui Rit
+                        <!-- LAYER NR. 9 -->
+                        <div class="tp-caption layer-9">
+                            Les Fruits du Val Qui Rit
                         </div>
-
+        
                         <!-- LAYER NR. 3 -->
-                        <div class="tp-caption color-white font-ros weight-300 skewfromleft customout size-20 letter-spacing-2 text-shadow text-center"
-                            data-x="505"
-                            data-y="700"
-                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                            data-speed="800"
-                            data-start="1600"
-                            data-easing="Power4.easeOut"
-                            data-endspeed="300"
-                            data-endeasing="Power1.easeIn"
-                            data-captionhidden="on"
-                            style="z-index: 4; text-align: center; left: 380.133px; top: 262.366px;color:#fff;text-shadow: #e9589f 0px 5px 10px;"> Producteurs de fruits de saison, Jus de fruits, Cidre Brut, Confitures, Dessert, Miel, <br> Des produits régionaux de notre terroir depuis 4 générations.
+                        <div class="tp-caption layer-3">
+                            Producteurs de fruits de saison, Jus de fruits, Cidre Brut, Confitures, Dessert, Miel,<br> Des produits régionaux de notre terroir depuis 4 générations.
                         </div>
-
-                        <!-- LAYER NR. 7 -->
-                        <div class="tp-caption skewfromleft customout font-roc link-1 height-40 size-16 text-center"
-                            data-x="800"
-                            data-y="550"
-                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                            data-speed="800"
-                            data-start="1500"
-                            data-easing="Power4.easeOut"
-                            data-endspeed="300"
-                            data-endeasing="Power1.easeIn"
-                            data-captionhidden="on"
-                            style="z-index: 5; text-align: center;left: 380.133px; top: 262.366px;color:#e9589f"><a href="#" title="View Shop" class=""></a>
-                        </div>
-
-                        <!-- LAYER NR. 8s -->
-                    
+        
+                    </li>
                 </ul>
                 <div class="tp-bannertimer"></div>
             </div>
-        </div><br><br><br>
+        </div>
+        
+        
+        <style>
+           /* General Styles */
+.tp-banner-container {
+    position: relative;
+}
+
+ .tp-banner {
+    position: relative;
+} 
+
+.main-image {
+    width: 100%;
+}
+
+/* Layer Styles */
+.tp-caption {
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+}
+
+ .layer-9 {
+    font-size: 5vw;
+    color: #e9589f;
+    text-shadow: #fff 0px 3px 5px;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.layer-3 {
+    color: #fff;
+    text-shadow: #e9589f 0px 5px 10px;
+    font-size: 2vw;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+
+.layer-7 {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e9589f;
+    z-index: 5;
+} */
+
+/* Link Style */
+.link {
+    display: inline-block;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .tp-caption {
+        font-size: 2vw;
+    }
+    .layer-9 {
+        font-size: 7vw;
+    }
+}
+        </style>
     `   <!-- End Slider Home2 -->
  
             <!--End Banner Home 2 -->
