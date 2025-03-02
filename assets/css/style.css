@@ -1987,11 +1987,6 @@ ul.bastian li p span {
   text-align: center;
 }
 
-@media (max-width: 1200px) {
-  .shipping-v2 {
-    margin-bottom: 40px;
-  }
-}
 
 .shipping-v2.home3-shiping {
   background: none;
@@ -3741,7 +3736,7 @@ ul.tabs.tabs-title li span.count {
     margin: 50px auto 0 !important;
   }
   .choose-us .title-choose {
-    margin-top: 10rem;
+    margin-top: 2rem;
   }
 }
 
@@ -22289,11 +22284,12 @@ dialog {
   padding-left: 230px;
 }
 .about{
+  display: flex;
   align-items: center;
 }
 
 .about .right{
-  padding: 0 10rem 0 20rem;
+  padding: 0 3rem 0 20rem;
 }
 
 .about .photos img{
