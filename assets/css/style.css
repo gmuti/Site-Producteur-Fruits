@@ -746,7 +746,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Pacifico", cursive;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
   width: 100%;
   color: #0365a6;
@@ -2046,14 +2046,12 @@ ul.bastian li p span {
 }
 
 .shipping-v2 h3 {
-  font-size: 14px;
-  /*text-transform: uppercase;*/
   color: #fff;
   font-weight: 700;
   line-height: 20px;
-  font-family: "Pacifico", cursive;
+  font-family: none;
   margin: 10px 0;
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .shipping-v2 p {
@@ -2086,7 +2084,7 @@ ul.bastian li p span {
 /** 4.2. Call to action **/
 .blog-post-container {
   display: inline-block;
-  margin: 10px 0 50px;
+  margin: 10px 0 0;
   width: 100%;
 }
 
@@ -2612,6 +2610,9 @@ ul.tabs.tabs-title li {
     font-size: 16px;
     margin-bottom: 5px;
   }
+  .horaires{
+    margin: 50px auto 0;
+  }
 }
 
 ul.tabs.tabs-title li.active,
@@ -3074,6 +3075,9 @@ ul.tabs.tabs-title li span.count {
   .slider-dot-images .owl-dots .owl-dot {
     width: 60px;
     height: 60px;
+  }
+  .horaires{
+    margin: 50px auto 0;
   }
 }
 
@@ -3729,6 +3733,15 @@ ul.tabs.tabs-title li span.count {
   .banner-home4 .col-sm-4:last-child .items:first-child {
     padding-right: 7px;
     padding-left: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 440px) {
+  .horaires{
+    margin: 50px auto 0 !important;
+  }
+  .choose-us .title-choose {
+    margin-top: 10rem;
   }
 }
 
@@ -16230,11 +16243,6 @@ button.button_search:hover {
   color: #e9589f;
 }
 
-@media (max-width: 767px) {
-  #footer.footer-v3 {
-    margin-top: 100px;
-  }
-}
 
 #footer .footer-top {
   padding: 30px 0px;
@@ -21128,9 +21136,6 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     width: 30px;
     margin-bottom: 10px;
   }
-  .choose-us{
-    margin-top: 100px;
-  }
   .banner-home7-top.banner-private .text h3 {
     font-size: 20px;
     padding-bottom: 10px;
@@ -21162,7 +21167,6 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   }
   .banner-hom7-center .banner-private-v2 .text h3 {
     font-size: 20px;
-    margin-bottom: 10px;
     line-height: 20px;
     margin-bottom: 0px;
   }
@@ -21564,7 +21568,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 .animationConten::before {
   content: "";
   position: absolute;
-  inset: 20px;
+  inset: 10px;
   border: 4px solid transparent;
   border-left: 3px solid #0365a6;
   border-right: 3px solid #e9589f;
@@ -21586,7 +21590,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 .animationConten::after {
   content: "";
   position: absolute;
-  inset: 50px;
+  inset: 20px;
   border: 4px solid transparent;
   border-left: 3px solid #e9589f;
   border-right: 3px solid #0365a6;
@@ -21627,15 +21631,16 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 15px;
 }
 
 .contentBx .card .imgBx {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
+  align-items: center;
+  margin-top: -40px;
 }
 
 .contentBx .card .imgBx img {
@@ -21644,7 +21649,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .contentBx .card .textBx {
@@ -21654,20 +21659,10 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   flex-direction: column;
 }
 
-.contentBx .card .textBx h2 {
-  position: relative;
-  font-weight: 600;
-  color: #e9589f;
-  text-transform: capitalize;
-  text-align: center;
+.contentBx .card .textBx h3 {
+  font-size: 2.5rem;
 }
 
-.contentBx .card .textBx h2 span {
-  font-size: 0.65em;
-  color: #000;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-}
 
 .contentBx .card .textBx .sci {
   position: relative;
@@ -21813,7 +21808,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 .animationCConten::before {
   content: "";
   position: absolute;
-  inset: 20px;
+  inset: 10px;
   border: 4px solid transparent;
   border-left: 3px solid #0365a6;
   border-right: 3px solid #e9589f;
@@ -21835,7 +21830,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 .animationCConten::after {
   content: "";
   position: absolute;
-  inset: 50px;
+  inset: 20px;
   border: 4px solid transparent;
   border-left: 3px solid #e9589f;
   border-right: 3px solid #0365a6;
@@ -21865,7 +21860,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 }
 
 .CContentBx.active {
-  transform: scale(1);
+  transform: scale(1.1);
   opacity: 1;
   transition-delay: 0.5s;
 }
@@ -21876,16 +21871,16 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 15px;
 }
 
 .CContentBx .card .imgBx {
   position: relative;
-  width: 168px;
-  height: 138px;
+  width: 280px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
   align-items: center;
+  margin-top: -40px;
 }
 
 .CContentBx .card .imgBx img {
@@ -21904,20 +21899,8 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   flex-direction: column;
 }
 
-.CContentBx .card .textBx h2 {
-  position: relative;
-  font-size: 1.9em;
-  font-weight: 600;
-  color: #e9589f;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-.CContentBx .card .textBx h2 span {
-  font-size: 0.65em;
-  color: #000;
-  font-weight: 500;
-  letter-spacing: 0.1em;
+.CContentBx .card .textBx h3 {
+  font-size: 2.5rem;
 }
 
 .CContentBx .card .textBx .sci {
@@ -22295,4 +22278,175 @@ dialog {
 
 #logo-marge a img {
   height: 100px;
+}
+.photos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10rem;
+  position: relative;
+  padding-left: 230px;
+}
+.about{
+  align-items: center;
+}
+
+.about .right{
+  padding: 0 10rem 0 20rem;
+}
+
+.about .photos img{
+  width: 70rem;
+  height: 60rem;
+}
+
+@media screen and (max-width: 768px){
+    .photos{
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+  .hidden-table {
+    display: block;
+  }
+    .about{
+        display: block;
+        align-items: center;
+    }
+
+    .about .right{
+        padding: 0 1rem;
+    }
+    .about .photos img#customer-photo{
+      height: 180px !important;
+      margin-top: 20px !important;
+    }
+    .about .photos img{
+      width: 150px;
+      height: 200px;
+    }
+    .layer-3{
+      font-size: 2.7vw;
+      top: 66%;
+      left: 68%;
+    }
+    .layer-9{
+      font-size: 10vw;
+      top: 60%;
+      left: 67%;
+    }
+}
+
+
+.about .photos img#customer-photo{
+  height: 51rem;
+  margin-top: 89px;
+}
+.horaires{
+  max-width: 800px;
+  margin: 120px auto 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(233, 88, 158, 0.282);
+}
+
+.horaires h3{
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.horaires h2{
+  color: #e9589f;
+  text-align: center;
+}
+
+.heure-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.heure h3 {
+  color: #0365a6;
+  font-size: 24px;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #0365a618;
+  border-radius: 5px;
+  display: inline-block;
+  transition: transform 0.3sease-in-out;
+}
+
+.heure h3 span{
+  color: #e9589f;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+
+.primary-color{
+  color: #e9589f;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+  .mon-produit-s {
+    width: auto !important;
+  }
+  .section-produit {
+    margin: 55px 0 !important;
+    padding: 25px 0 !important;
+  }
+  .mon-produit-s {
+    border: 2px solid #0365a6 !important;
+    padding: 20px !important;
+    margin: 0 5px !important;
+  }
+  #prevBtn, #nextBtn, #prevBtn2, #nextBtn2, #prevBtn3, #nextBtn3, #prevBtn4, #nextBtn4, #prevBtn5, #nextBtn5, #prevBtn6, #nextBtn6, #prevBtn7, #nextBtn7, #nextBtn8, #prevBtn8 {
+    top: 10% !important;
+  }
+
+  .mon-produit-s .oc .mon-cont {
+    flex-direction: column !important;
+  }
+
+  .mon-produit-s .oc .mon-cont .text {
+    margin: 20px !important;
+  }
+  .mon-cont .text h1 {
+    font-size: 3rem !important;
+  }
+  .saison {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .saison img, #abricot .saison img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .embalage {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .img-embalage {
+    margin: 10px !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+  }
+  .embalage img {
+    width: 180px !important;
+    height: 110px !important;
+  }
+  .embalage h2 {
+    margin: 10px 0 10px 30px !important;
+  }
+  .haut img {
+    width: 100px !important;
+    height: 100px !important;
+    margin-left: 15px !important;
+  }
 }
