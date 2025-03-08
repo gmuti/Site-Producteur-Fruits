@@ -2044,9 +2044,9 @@ ul.bastian li p span {
   color: #fff;
   font-weight: 700;
   line-height: 20px;
-  font-family: none;
   margin: 10px 0;
-  font-size: 18px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 .shipping-v2 p {
@@ -21498,8 +21498,8 @@ nav.megamenu-v2 ul.main-menu li:last-child {
 
 .animationContain {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 480px;
+  height: 480px;
   border: 2px solid #e9589f;
   border-radius: 50%;
   margin-left: 190px;
@@ -21524,7 +21524,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   transition: 0.5s;
   border: 1px solid #e9589f;
   box-shadow: 0 0 0 4px #0365a6, 0 0 0 6px #fff;
-  transform: rotate(calc(360deg / 15 * var(--i)));
+  transform: rotate(calc(360deg / 13 * var(--i)));
   transform-origin: 290px;
   z-index: 100;
   overflow: hidden;
@@ -21542,7 +21542,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  transform: rotate(calc(-360deg / 15 * var(--i)));
+  transform: rotate(calc(-360deg / 13 * var(--i)));
   transition: 0.5s;
   filter: brightness(50%);
 }
@@ -22384,6 +22384,7 @@ dialog {
 
 .primary-color{
   color: #e9589f;
+  font-size: 20px;
 }
 
 @media (min-width: 320px) and (max-width: 768px){
