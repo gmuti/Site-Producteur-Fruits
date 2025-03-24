@@ -18085,22 +18085,6 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   .tp-banner-container .tp-caption .size-50 br {
     display: none;
   }
-  .about .right {
-    padding: 3rem !important;
-  }
-  .photos {
-    padding: 10px !important;
-  }
-  .about {
-    flex-direction: column !important;
-  }
-  .layer-9 {
-    font-size: 8vw !important;
-  }
-  .layer-3{
-    font-size: 2.5vw !important;
-    top: 74% !important;
-  }
 }
 
 @media (max-width: 1024px) {
