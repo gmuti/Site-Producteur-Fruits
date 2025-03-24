@@ -89,18 +89,25 @@
 
         <div class="">
             <div class="tp-banner">
-                <!-- MAIN IMAGE -->
-                <!--img src="assets/nouveau-photo-site/photo-acceuil.jpg" id="homePageBanner" alt="Futurelife-home2-slideshow" class="main-image"-->
-
-                <!-- LAYER NR. 9 -->
-                <div class="tp-caption layer-9">
-                    Les Fruits du Val Qui Rit
-                </div>
-
-                <!-- LAYER NR. 3 -->
-                <div class="tp-caption layer-3">
-                    Producteurs de fruits de saison, Jus de fruits, Cidre Brut, Confitures, Dessert, Miel,<br> Des produits régionaux de notre terroir depuis 4 générations.
-                </div>
+                <ul>    
+                    <!-- SLIDE  -->
+                    <li data-transition="random" data-slotamount="6" data-masterspeed="1000">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/nouveau-photo-site/photo-acceuil.jpg" id="homePageBanner" alt="Futurelife-home2-slideshow" class="main-image">
+                        
+                        <!-- LAYER NR. 9 -->
+                        <div class="tp-caption layer-9">
+                            Les Fruits du Val Qui Rit
+                        </div>
+        
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption layer-3">
+                            Producteurs de fruits de saison, Jus de fruits, Cidre Brut, Confitures, Dessert, Miel,<br> Des produits régionaux de notre terroir depuis 4 générations.
+                        </div>
+        
+                    </li>
+                </ul>
+                <div class="tp-bannertimer"></div>
             </div>
         </div>
         
@@ -110,13 +117,12 @@
 .tp-banner-container {
     position: relative;
 }
-.tp-banner {
-    position: relative;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.85)), url("assets/nouveau-photo-site/photo-acceuil.jpg") center/cover no-repeat;
-}
 
-.tp-banner {
+ .tp-banner {
+    position: relative;
+} 
+
+.main-image {
     width: 100%;
     height: 100vh;
     /*inline-size: auto;*/
@@ -133,7 +139,7 @@
     font-size: 5vw;
     color: #e9589f;
     text-shadow: #fff 0px 3px 5px;
-    top: 65%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -142,7 +148,7 @@
     color: #fff;
     text-shadow: #e9589f 0px 5px 10px;
     font-size: 2vw;
-    top: 80%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
@@ -164,13 +170,10 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .tp-caption {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
     .layer-9 {
-        font-size: 8vw;
-    }
-    .layer-3 {
-        top: 72% !important;
+        font-size: 7vw;
     }
 }
         </style>
@@ -179,8 +182,8 @@
             <!--End Banner Home 2 -->
             <div class="about" id="aproposVal">
                     <div class=" photos">
-                        <img class="img-responsive" src="assets/img2/22.png" alt="banner">
-                        <img class="img-responsive" src="assets/img2/niclolas.png" id="customer-photo" alt="banner">
+                        <img class="img-responsive hidden-table" src="assets/img2/22.png" alt="banner">
+                        <img class="img-responsive hidden-table" src="assets/img2/222.png" id="customer-photo" alt="banner">
                     </div>
                     <!--End col-md-4-->
                     <div class="right">
