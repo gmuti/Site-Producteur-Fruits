@@ -18085,6 +18085,22 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   .tp-banner-container .tp-caption .size-50 br {
     display: none;
   }
+  .about .right {
+    padding: 3rem !important;
+  }
+  .photos {
+    padding: 10px !important;
+  }
+  .about {
+    flex-direction: column !important;
+  }
+  .layer-9 {
+    font-size: 8vw !important;
+  }
+  .layer-3{
+    font-size: 2.5vw !important;
+    top: 74% !important;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -18147,7 +18163,26 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     line-height: 20px;
     margin-top: 20px;
   }
+
+  #header .header-top .logo-mobile img {
+    width: 130px;
+  }
+  .mon-produit-s {
+    width: 95%;
+  }
+  .saison {
+    margin: 0;
+    padding: 0;
+  }
+  .embalage {
+    padding: 20px 0 10px 0;
+    margin: 0;
+  }
+  .section-produit {
+    padding: 0;
+  }
 }
+
 
 .slide-show-container.slide-show-container-home5 {
   width: 68%;
@@ -19470,9 +19505,6 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   #topbar .voucher {
     display: none;
   }
-  .container {
-    padding: 0px 15px;
-  }
   .container .col-md-5,
   .container .col-md-7 {
     width: 100%;
@@ -19725,22 +19757,19 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     background: none;
     text-align: left;
     padding-left: 20px;
-    color: #888;
+    color: #0365a6;
   }
   .mega-menu ul.navbar-nav li a:hover {
-    background: none;
-    color: #000;
+    background: rgba(3, 101, 166, 0.54);
+    color: #e9589f;
   }
   .mega-menu ul.navbar-nav li.dropdown.active a {
     background: none;
-    color: #000;
-  }
-  .mega-menu ul.navbar-nav li.level1 {
-    border-bottom: 1px solid #eeeeee;
+    color: #e9589f;
   }
   .mega-menu ul.navbar-nav {
     margin-top: 20px;
-    border: 1px solid red;
+    border: 1px solid #e9589f;
   }
   .mega-menu ul.navbar-nav li.level1:last-child {
     border-bottom: none;
@@ -19774,7 +19803,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     margin: 0px;
   }
   .mega-menu ul.navbar-nav ul.menu-level-1 li a {
-    color: #000 !important;
+    color: #0365a6 !important;
     border-bottom: none;
   }
   .mega-menu ul.navbar-nav ul.menu-level-1 li a:after {
@@ -19809,7 +19838,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     position: relative;
   }
   .mega-menu ul.navbar-nav li.hassub i {
-    color: #555555;
+    color: #0365a6;
   }
   .mega-menu ul.navbar-nav li.level2 {
     padding: 0px;
@@ -22337,8 +22366,8 @@ dialog {
 
 
 .about .photos img#customer-photo{
-  height: 51rem;
-  margin-top: 89px;
+  height: 57rem;
+  margin-top: 33px;
 }
 .horaires{
   max-width: 800px;

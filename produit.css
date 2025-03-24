@@ -201,3 +201,19 @@
 .saison h2{
     margin: 10px 0 10px 30px;
 }
+@media (max-width: 1024px) {
+    .mon-produit-s {
+        width: 95%;
+    }
+    .saison {
+        margin: 0;
+        padding: 0;
+    }
+    .embalage {
+        padding: 20px 0 10px 0;
+        margin: 0;
+    }
+    .section-produit {
+        padding: 0;
+    }
+}
