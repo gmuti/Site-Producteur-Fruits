@@ -15150,7 +15150,7 @@ nav.pagination a.prev:hover i {
 
 @media (max-width: 767px) {
   #header.header-v3.header-v2 .header-top {
-    margin: 0px;
+    margin-top: 20px;
     padding: 5px 0px 0px;
   }
   #header.header-v3.header-v2 .header-top .cart {
@@ -19594,14 +19594,11 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   .ordering span.icon-menu-mobile:hover i {
     background: url("../images/icon-menu-mobile-active.svg") no-repeat scroll
       0px 0px;
-    background-size: 18px auto;
   }
   .icon-menu-mobile i {
     height: 23px;
     width: 32px;
-    color: #000;
     background: url("../images/icon-menu-mobile.svg") no-repeat;
-    background-size: 24px auto;
   }
   .icon-menu-mobile i::before {
     content: "";
@@ -19664,7 +19661,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   .mega-menu {
     padding: 0 15px;
     z-index: 100;
-    margin-top: 50px;
+    margin-top: 60px;
   }
   .mega-menu .navbar-header {
     display: inline-block;
@@ -19773,6 +19770,9 @@ nav.megamenu-v2 ul.main-menu li:last-child {
   .mega-menu {
     width: 100%;
     float: initial;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
   }
   .mega-menu ul.navbar-nav ul.menu-level-1 {
     opacity: 1;
@@ -20509,7 +20509,7 @@ nav.megamenu-v2 ul.main-menu li:last-child {
     margin-bottom: 20px;
   }
   #header .header-top .logo-mobile {
-    margin-top: 13px;
+    margin-top: 8px;
   }
   #header .header-top .logo-mobile img {
     width: 130px;
@@ -22076,7 +22076,7 @@ dialog {
 
 @media screen and (max-width: 768px){
   .banner-lbook3{
-    height: 0px;
+    display: none;
   }
 }
 
@@ -22281,11 +22281,12 @@ dialog {
 
 #logo-marge {
   padding-bottom: 0;
-  margin: 20px 50px 0 20px;
+  margin-top: 25px;
 }
 
 #logo-marge a img {
   height: 100px;
+  margin-right: 10px;
 }
 .photos{
   display: flex;
@@ -22405,8 +22406,8 @@ dialog {
     width: auto !important;
   }
   .section-produit {
-    margin: 55px 0 !important;
-    padding: 25px 0 !important;
+    margin: 0 !important;
+    padding: 20px 0 !important;
   }
   .mon-produit-s {
     border: 2px solid #0365a6 !important;
@@ -22428,7 +22429,7 @@ dialog {
     font-size: 3rem !important;
   }
   .saison {
-    margin: 0 !important;
+    margin: 0 0.7rem !important;
     padding: 0 !important;
   }
   .saison img, #abricot .saison img {
@@ -22448,15 +22449,20 @@ dialog {
     gap: 10px !important;
   }
   .embalage img {
-    width: 180px !important;
+    width: 170px !important;
     height: 110px !important;
   }
   .embalage h2 {
     margin: 10px 0 10px 30px !important;
   }
   .haut img {
-    width: 100px !important;
-    height: 100px !important;
+    width: 80px !important;
+    height: 80px !important;
     margin-left: 15px !important;
   }
+}
+
+.form-blue ::placeholder {
+  color: #0365A6;
+  opacity: 1;
 }
